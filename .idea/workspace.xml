@@ -2,7 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa677abd-f82e-4bec-83ce-ec38144f3822" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/e2e/tsconfig.e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/login/login.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/login/login.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/oauth2/authorize/authorize.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/oauth2/authorize/authorize.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/oauth2/authorize/authorize.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/oauth2/authorize/authorize.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/oauth2/token/token.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/oauth2/token/token.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/oauth2/token/token.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/oauth2/token/token.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/secret/secret.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/secret/secret.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/secret/secret.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/secret/secret.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth-server-FE/tslint.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,16 +60,33 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="oauth2" />
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/oauth-server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SHxUq0CyYxGinqzsHWjTb25FKT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/oauth-server/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.GraphQL" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/oauth-server-FE/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/oauth-server/src/types" />
+      <recent name="$PROJECT_DIR$/oauth-server/src/models/token" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -44,21 +111,84 @@
       <option name="presentableId" value="Default" />
       <updated>1571234340531</updated>
       <workItem from="1571234341834" duration="252000" />
+      <workItem from="1572093030166" duration="18870000" />
+      <workItem from="1572187597275" duration="1481000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/oauth-server/src/models/token/RefreshTokenPayload.js" />
+        <option value="$PROJECT_DIR$/oauth-server/src/models/token/TokenPayload.js" />
+        <option value="$PROJECT_DIR$/oauth-server/src/models/token/AccessTokenPayload.js" />
+        <option value="$PROJECT_DIR$/oauth-server/src/app.js" />
+        <option value="$PROJECT_DIR$/oauth-server/src/routes.js" />
+        <option value="$PROJECT_DIR$/oauth-server/src/server.js" />
+        <option value="$PROJECT_DIR$/oauth-server/src/controllers/secretController.js" />
+        <option value="$PROJECT_DIR$/oauth-server/src/controllers/oauthController.js" />
+        <option value="$PROJECT_DIR$/oauth-server/src/controllers/appController.js" />
+        <option value="$PROJECT_DIR$/oauth-server/src/controllers/infoController.js" />
+        <option value="$PROJECT_DIR$/oauth-server/src/models/User.js" />
+        <option value="$PROJECT_DIR$/oauth-server/src/models/schema/OAuthApp.js" />
+        <option value="$PROJECT_DIR$/oauth-server/src/models/schema/RefreshToken.js" />
+        <option value="$PROJECT_DIR$/oauth-server/src/models/schema/OAuthRequest.js" />
+        <option value="$PROJECT_DIR$/oauth-server/src/models/schema/User.js" />
+        <option value="$PROJECT_DIR$/oauth-server/src/utils/encodeAccessToken.js" />
+        <option value="$PROJECT_DIR$/oauth-server/src/utils/debug.js" />
+        <option value="$PROJECT_DIR$/oauth-server/src/utils/tokenResolver.js" />
+        <option value="$PROJECT_DIR$/oauth-server/src/utils/errorHandler.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/oauth-server" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/oauth-server/src/controllers/oauthController.ts</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/oauth-server/src/controllers/oauthController.ts</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/oauth-server/src/controllers/appController.ts</url>
+          <line>42</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
