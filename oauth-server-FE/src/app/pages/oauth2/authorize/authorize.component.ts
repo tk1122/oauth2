@@ -41,7 +41,7 @@ export class AuthorizeComponent implements OnInit {
       this.params = params;
     });
     if (!accessToken) {
-      return this.router.navigateByUrl(`/login?redirect=${this.params.redirect_uri}&client_id=${this.params.client_id}&scope=${this.params.scope}`)
+      return this.router.navigateByUrl(`/login?redirect_uri=${this.params.redirect_uri}&client_id=${this.params.client_id}&scope=${this.params.scope}`)
     }
     this.getAppInfo()
   }

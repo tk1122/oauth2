@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aa677abd-f82e-4bec-83ce-ec38144f3822" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-server/src/controllers/oauthController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server/src/controllers/oauthController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/oauth2/authorize/authorize.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/oauth2/authorize/authorize.component.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +70,7 @@
       <workItem from="1573960350253" duration="96000" />
       <workItem from="1573960532447" duration="109000" />
       <workItem from="1573960700721" duration="638000" />
-      <workItem from="1576548802212" duration="17299000" />
+      <workItem from="1576548802212" duration="17596000" />
     </task>
     <servers />
   </component>
