@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa677abd-f82e-4bec-83ce-ec38144f3822" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-server-FE/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/oauth2/authorize/authorize.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/oauth2/authorize/authorize.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/oauth2/authorize/authorize.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/oauth2/authorize/authorize.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-server-FE/src/app/services/oauth-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/services/oauth-service.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-server-FE/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server-FE/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-server/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-server/src/controllers/appController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server/src/controllers/appController.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oauth-server/src/controllers/oauthController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server/src/controllers/oauthController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-server/src/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server/src/routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-server/src/utils/tokenResolver.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server/src/utils/tokenResolver.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +69,7 @@
       <workItem from="1573960350253" duration="96000" />
       <workItem from="1573960532447" duration="109000" />
       <workItem from="1573960700721" duration="638000" />
-      <workItem from="1576548802212" duration="16949000" />
+      <workItem from="1576548802212" duration="17299000" />
     </task>
     <servers />
   </component>

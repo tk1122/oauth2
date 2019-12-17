@@ -107,6 +107,7 @@ const getAccessToken = async (req: Request, res: Response, next: any): Promise<R
                 .createQueryBuilder('r')
                 .select()
                 .innerJoinAndSelect('r.app', 'a')
+                .innerJoinAndSelect('r.user', 'u')
                 .getOne();
 
             if (!request) {
