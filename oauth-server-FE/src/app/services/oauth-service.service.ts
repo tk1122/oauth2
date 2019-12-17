@@ -10,9 +10,35 @@ export class OauthServiceService {
   private api = environment.API;
 
   login(username: string, password: string) {
-    return this.http.post(this.api + "/api/oauth/get_access_token", {
+    return this.http.post(this.api + "/oauth/get_access_token", {
       username,
-      password
+      password,
+      grant_type: 'password'
+    });
+  }
+
+  getAppInfo(redirectUri:string, clientId: string, scope: string) {
+    return this.http.post(this.api + "/api/app/get_oauth_app", {
+      redirect_uri: redirectUri,
+      client_id: clientId,
+      scope
+    }, {
+      headers: {
+        Authorization: `Bearer ${localStorage.getItem('accessToken')}`
+      }
+    });
+  }
+
+  getAuthCode(redirectUri:string, clientId: string, scope: string) {
+    return this.http.post(this.api + "/oauth/create_oauth_request", {
+      redirect_uri: redirectUri,
+      client_id: clientId,
+      scope,
+      response_type: 'code'
+    }, {
+      headers: {
+        Authorization: `Bearer ${localStorage.getItem('accessToken')}`
+      }
     });
   }
 }

@@ -33,6 +33,7 @@ export class LoginComponent implements OnInit {
           if (!res.success) {
             return;
           }
+          localStorage.setItem('accessToken', res.accessToken);
           if (!this.params.redirect_uri) {
             this.router.navigate(["/public"]);
           }

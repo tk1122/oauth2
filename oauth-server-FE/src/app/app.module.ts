@@ -10,7 +10,7 @@ import { SecretComponent } from "./pages/secret/secret.component";
 import { HttpClientModule } from "@angular/common/http";
 import { ReactiveFormsModule, FormsModule } from "@angular/forms";
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
-import { NgZorroAntdModule, NZ_I18N, en_US } from "ng-zorro-antd";
+import {NgZorroAntdModule, NZ_I18N, en_US, NzCardModule} from "ng-zorro-antd";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { registerLocaleData } from "@angular/common";
 import en from "@angular/common/locales/en";
@@ -32,7 +32,8 @@ registerLocaleData(en);
     ReactiveFormsModule,
     NgZorroAntdModule,
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NzCardModule
   ],
   providers: [{ provide: NZ_I18N, useValue: en_US }],
   bootstrap: [AppComponent]

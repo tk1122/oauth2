@@ -68,6 +68,7 @@ const getOauthApps = async (req: Request, res: Response, next: any): Promise<Res
 
 const getOAuthApp = async (req: Request, res: Response, next: any): Promise<Response> => {
     const { scope, redirect_uri: redirectUri, client_id: clientId } = req.body;
+    console.log(req.body)
     const appRepository = getConnection().getRepository(OAuthApp);
 
     const app = await appRepository.findOne({

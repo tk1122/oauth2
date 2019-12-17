@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  API: "http://localhost:3000"
+  API: window.location.hostname === 'localhost'? 'http://localhost:3000' : "http://192.168.1.28:3000"
 };
 
 /*

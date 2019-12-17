@@ -1,3 +1,24 @@
-<p>
-  authorize works!
-</p>
+<div *ngIf="this.done">
+  <div style="background: #ECECEC;padding:30px; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center">
+    <nz-card style="width:300px;" [nzBordered]="false" nzTitle="Identity consent"
+             [nzActions]="[actionSetting, actionEdit]"
+    >
+      <h1>{{this.app.name}}</h1>
+      <p>This app want to access your: </p>
+      <ul>
+        <li *ngFor="let scope of this.app.scope">
+          {{ scope }}
+        </li>
+      </ul>
+      <h3>Your sensitive information is still kept in secret</h3>
+    </nz-card>
+  </div>
+  <ng-template #actionSetting>
+    <p (click)="this.accept()">Accept</p>
+  </ng-template>
+  <ng-template #actionEdit>
+    <p (click)="this.reject()">Reject</p>
+  </ng-template>
+</div>
+
+<div *ngIf="this.error">Error</div>

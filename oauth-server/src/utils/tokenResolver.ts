@@ -3,9 +3,7 @@ import jwt from 'jsonwebtoken';
 import { User } from '../models/User';
 
 export default (req: Request, res: Response, next: NextFunction) => {
-    console.log('there');
     const beareToken = req.headers.authorization;
-
     if (!beareToken) {
         return next(new Error('access denied'));
     }

@@ -8,10 +8,12 @@ import { OAuthRequest } from './models/schema/OAuthRequest';
 import tokenResolver from './utils/tokenResolver';
 import { RefreshToken } from './models/schema/RefreshToken';
 import { User } from './models/schema/User';
+import cors from 'cors';
 
 const App: Express = express();
 App.use(json());
 App.use(urlencoded({ extended: true }));
+App.use(cors());
 
 createConnection({
     type: 'mysql',

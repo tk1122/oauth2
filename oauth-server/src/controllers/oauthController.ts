@@ -30,6 +30,9 @@ const createOauthRequest = async (req: Request, res: Response, next: any): Promi
         state,
         code_challenge: codeChallenge
     } = req.body;
+
+    console.log(req.body);
+
     const authCodeExpireTime = process.env.AUTH_CODE_EXPIRE_TIME_MS || 600;
     const appRepository = getConnection().getRepository(OAuthApp);
     const requestRepository = getConnection().getRepository(OAuthRequest);
@@ -42,8 +45,9 @@ const createOauthRequest = async (req: Request, res: Response, next: any): Promi
                 clientId,
                 scope
             });
+
             if (!app) {
-                next(new Error('client_id not found'));
+                return next(new Error('client_id not found'));
             }
 
             const user = await userRepository.findOne({
@@ -91,6 +95,7 @@ const getAccessToken = async (req: Request, res: Response, next: any): Promise<R
         password,
         code_verifier: codeVerifier
     } = req.body;
+
     const appRepository = getConnection().getRepository(OAuthApp);
     const requestRepository = getConnection().getRepository(OAuthRequest);
     const userRepository = getConnection().getRepository(User);
@@ -98,9 +103,11 @@ const getAccessToken = async (req: Request, res: Response, next: any): Promise<R
 
     switch (grantType) {
         case GrantType.authorizationCode: {
-            const request = await requestRepository.findOne({
-                code
-            });
+            const request = await requestRepository
+                .createQueryBuilder('r')
+                .select()
+                .innerJoinAndSelect('r.app', 'a')
+                .getOne();
 
             if (!request) {
                 return next(new Error('code not valid'));
@@ -117,10 +124,14 @@ const getAccessToken = async (req: Request, res: Response, next: any): Promise<R
                 }
             }
 
+            console.log(request);
+
             const app = await appRepository.findOne({
                 id: request.app.id,
                 clientId
             });
+
+            console.log(app);
 
             // confidential app have client secret, SPA don't
             if (!app || (app.clientSecret && app.clientSecret !== clientSecret)) {
@@ -186,6 +197,7 @@ const getAccessToken = async (req: Request, res: Response, next: any): Promise<R
                 const accessToken = await new AccessTokenCreator().encodeToken(accessTokenPayload);
 
                 return res.json({
+                    success: true,
                     accessToken
                 });
             } catch (e) {
