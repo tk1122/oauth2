@@ -14,6 +14,10 @@ import {NgZorroAntdModule, NZ_I18N, en_US, NzCardModule} from "ng-zorro-antd";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { registerLocaleData } from "@angular/common";
 import en from "@angular/common/locales/en";
+import { HomeComponent } from './pages/home/home.component';
+import { OauthAppComponent } from './pages/oauth-app/oauth-app.component';
+import { ErrorComponent } from './pages/error/error.component';
+import {TokenGuard} from "./shared/guards/token.guard";
 
 registerLocaleData(en);
 
@@ -23,7 +27,10 @@ registerLocaleData(en);
     LoginComponent,
     AuthorizeComponent,
     TokenComponent,
-    SecretComponent
+    SecretComponent,
+    HomeComponent,
+    OauthAppComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +42,7 @@ registerLocaleData(en);
     BrowserAnimationsModule,
     NzCardModule
   ],
-  providers: [{ provide: NZ_I18N, useValue: en_US }],
+  providers: [{ provide: NZ_I18N, useValue: en_US }, TokenGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

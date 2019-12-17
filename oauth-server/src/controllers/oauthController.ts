@@ -33,7 +33,7 @@ const createOauthRequest = async (req: Request, res: Response, next: any): Promi
 
     console.log(req.body);
 
-    const authCodeExpireTime = process.env.AUTH_CODE_EXPIRE_TIME_MS || 600;
+    const authCodeExpireTime = process.env.AUTH_CODE_EXPIRE_TIME_MS || 60000000;
     const appRepository = getConnection().getRepository(OAuthApp);
     const requestRepository = getConnection().getRepository(OAuthRequest);
     const userRepository = getConnection().getRepository(User);

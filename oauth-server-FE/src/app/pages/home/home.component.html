@@ -1,0 +1,10 @@
+<div style="background: #ECECEC;padding:30px; display: flex; justify-content: center; align-items: center; height: 100vh">
+  <nz-card style="width:300px;" [nzBordered]="false" nzTitle="{{this.user.username}}" [nzExtra]="extraTemplate">
+    <p>Name: {{this.user.name}}</p>
+    <p>Age: {{this.user.age}}</p>
+    <p>Email: {{this.user.email}}</p>
+  </nz-card>
+</div>
+<ng-template #extraTemplate>
+  <a>secret info</a>
+</ng-template>

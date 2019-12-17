@@ -35,7 +35,7 @@ export class LoginComponent implements OnInit {
           }
           localStorage.setItem('accessToken', res.accessToken);
           if (!this.params.redirect_uri) {
-            return this.router.navigate(["/public"]);
+            return this.router.navigate(["home"]);
           }
 
           return this.router.navigateByUrl(`/oauth2/authorize?redirect_uri=${this.params.redirect_uri}&client_id=${this.params.client_id}&scope=${this.params.scope}`)
