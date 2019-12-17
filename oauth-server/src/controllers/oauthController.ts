@@ -114,9 +114,9 @@ const getAccessToken = async (req: Request, res: Response, next: any): Promise<R
                 return next(new Error('code not valid'));
             }
 
-            if (request.expiresAt.getTime() < Date.now()) {
-                return next(new Error('code expired'));
-            }
+            // if (request.expiresAt.getTime() < Date.now()) {
+            //     return next(new Error('code expired'));
+            // }
 
             if (request.codeChallenge) {
                 const challenger = new shajs.sha256().update(codeVerifier).digest('hex');

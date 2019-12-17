@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa677abd-f82e-4bec-83ce-ec38144f3822" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/shared/guards/token.guard.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-server-FE/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-server-FE/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/secret/secret.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/secret/secret.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/secret/secret.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/pages/secret/secret.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oauth-server-FE/src/app/services/oauth-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server-FE/src/app/services/oauth-service.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauth-server/src/controllers/infoController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server/src/controllers/infoController.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oauth-server/src/controllers/oauthController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/oauth-server/src/controllers/oauthController.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

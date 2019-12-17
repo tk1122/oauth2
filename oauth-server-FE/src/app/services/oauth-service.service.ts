@@ -57,4 +57,12 @@ export class OauthServiceService {
       }
     });
   }
+
+  getSecretInfo() {
+    return this.http.get(this.api + 'api/secret/get_secret_info' , {
+      headers: {
+        Authorization: `Bearer ${localStorage.getItem("accessToken")}`
+      }
+    })
+  }
 }
