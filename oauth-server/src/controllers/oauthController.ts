@@ -149,23 +149,23 @@ const getAccessToken = async (req: Request, res: Response, next: any): Promise<R
                 iss: 'Identity'
             };
 
-            const jti = uuid();
-            const refreshToken = refreshTokenRepository.create({
-                jti,
-                request
-            });
+            // const jti = uuid();
+            // const refreshToken = refreshTokenRepository.create({
+            //     jti,
+            //     request
+            // });
 
             try {
                 const accessToken = await new AccessTokenCreator().encodeToken(accessTokenPayload);
                 // if everything ok, expire the authorization code
 
                 request.expiresAt = new Date();
-                await refreshTokenRepository.save(refreshToken);
+                // await refreshTokenRepository.save(refreshToken);
                 await requestRepository.save(request);
 
                 return res.json({
                     accessToken,
-                    refreshToken: jti
+                    // refreshToken: jti
                 });
             } catch (e) {
                 return next(e);
